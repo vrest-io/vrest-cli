@@ -104,7 +104,7 @@ function callApi(cook) {
   switch (_extractArgs2.default.apicall) {
     case 'import':
       return (0, _request2.default)({
-        url: urlob.protocol + '//' + urlob.host + urlob.pathname.replace('/g/', '/import/' + urlob.query.projectId + '/json/'),
+        url: urlob.protocol + '//' + urlob.host + urlob.pathname.replace('/g/', '/import/' + urlob.query.projectId + '/' + _extractArgs2.default.from + '/'),
         method: 'POST',
         headers: { cookie: cook },
         payloadStream: _fs2.default.createReadStream(_extractArgs2.default.filepath),
@@ -119,7 +119,7 @@ function callApi(cook) {
       });
     default:
       return (0, _request2.default)({
-        url: _extractArgs2.default.url.replace('/g/', '/f/' + _extractArgs2.default.from + '/'),
+        url: _extractArgs2.default.url.replace('/g/', '/f/json/'),
         method: 'GET',
         headers: { cookie: cook }
       }).then(saveToFile);
