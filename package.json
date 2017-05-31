@@ -1,0 +1,26 @@
+{
+  "name": "vrest-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for vREST APIs",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:vrest-io/vrest-cli.git"
+  },
+  "keywords": [
+    "vrest",
+    "api",
+    "rest",
+    "testing",
+    "cli"
+  ],
+  "author": "vREST Team <team@vrest.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrest-io/vrest-cli/issues"
+  },
+  "homepage": "https://github.com/vrest-io/vrest-cli#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  }
+}
