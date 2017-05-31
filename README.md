@@ -19,7 +19,6 @@
         -e, --email      : Email ID through which you have registered on vREST
         -p, --password   : Password of your vREST account
         -a, --apicall    : API call to invoke. Supported values are import, export.
-        -h, --help       : To see this help.
 Note: Each API call has their own set of arguments.
 
 ### API Calls:

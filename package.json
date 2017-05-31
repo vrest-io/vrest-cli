@@ -1,7 +1,7 @@
 {
   "name": "vrest-cli",
   "version": "0.0.1",
-  "description": "vREST api for command line",
+  "description": "Command line interface for vREST APIs",
   "bin": "index.js",
   "repository": {
     "type": "git",
